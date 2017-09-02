@@ -1,0 +1,30 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: Segoe, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+body,html, .capa{
+	height: 100%;
+}
+.capa{
+	display: table;
+	width: 100%;
+}
+.texto-capa{
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+.texto-capa h1{
+	font-size: 150px;
+}
+footer{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+/*section{
+	height: 100%;
+}*/
