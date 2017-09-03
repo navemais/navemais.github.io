@@ -4,6 +4,13 @@
 }
 body{
 	font-family: Segoe, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+	background-image: url("../img/bg.png");
+	background-color: #cf2766;
+	color: white;
+	/*background-repeat: no-repeat;*/
+	background-position: center;
+	/*background-attachment: fixed;*/
+	background-size: 1000px;
 }
 body,html, .capa{
 	height: 100%;
@@ -11,20 +18,57 @@ body,html, .capa{
 .capa{
 	display: table;
 	width: 100%;
+	background-image: url("../img/elements.png");
+	background-size: 200px;
+	background-repeat: no-repeat;
 }
 .texto-capa{
 	text-align: center;
 	display: table-cell;
 	vertical-align: middle;
 }
-.texto-capa h1{
-	font-size: 150px;
+.texto-capa img{
+	width: 900px;
 }
 footer{
 	text-align: center;
 	padding-top: 30px;
 	padding-bottom: 10px;
 }
+table{
+	background-color: white;
+	color: black;
+}
+#chamadas-atividades{
+	background-image: url("../img/elementsplus.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	/*background-attachment: fixed;*/
+	background-size: 150px;
+}
+#atividades{
+	background-image: url("../img/elementsplusplus.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	/*background-attachment: fixed;*/
+	background-size: 100px;
+}
+#sobre{
+	background-image: url("../img/trian.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	/*background-attachment: fixed;*/
+	background-size: 150px;
+}
+#programacao{
+	background-image: url("../img/bg.png");
+	/*background-repeat: no-repeat;*/
+	background-position: center;
+	/*background-attachment: fixed;*/
+	background-size: 1000px;
+}
+
+
 /*section{
 	height: 100%;
 }*/
