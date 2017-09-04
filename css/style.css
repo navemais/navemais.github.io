@@ -4,11 +4,7 @@
 }
 body{
 	font-family: Segoe, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
-	background-image: url("../img/bg.png");
-	background-color: #cf2766;
-	color: white;
-	background-position: center;
-	background-size: 1000px;
+	
 }
 body,html, .capa{
 	height: 100%;
@@ -16,14 +12,20 @@ body,html, .capa{
 .capa{
 	display: table;
 	width: 100%;
-	background-image: url("../img/elements.png");
-	background-size: 200px;
 	background-repeat: no-repeat;
+	background-image: url("../img/bg.png");
+	background-color: #cf2766;
+	color: white;
+	background-position: center;
+	background-size: 1000px;
 }
 .texto-capa{
 	text-align: center;
 	display: table-cell;
 	vertical-align: middle;
+	background-image: url("../img/elements.png");
+	background-size: 200px;
+	background-repeat: no-repeat
 }
 .texto-capa img{
 	width: 800px;
@@ -43,9 +45,11 @@ footer a:hover{
 	color: black;
 }
 table{
+	margin-top: 20px;
 	background-color: white;
 	color: black;
 	text-align: center;
+	text-transform: uppercase;
 }
 th{
 	text-align: center;
@@ -55,6 +59,7 @@ th{
 	background-repeat: no-repeat;
 	background-position: right;
 	background-size: 150px;
+	margin-top: 50px;
 }
 #atividades{
 	background-image: url("../img/elementsplusplus.png");
@@ -82,5 +87,12 @@ th{
 }
 tbody tr th{
 	width: 10px;
+}
+
+.titulos{
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
