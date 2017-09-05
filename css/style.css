@@ -74,6 +74,7 @@ th{
 	background-size: 150px;
 }
 #programacao{
+	margin-top: 30px;
 	background-image: url("../img/bg.png");
 	background-position: center;
 	background-size: 1000px;
@@ -87,6 +88,9 @@ th{
 }
 tbody tr th{
 	width: 10px;
+}
+#atividades{
+	margin-top: 30px;
 }
 
 .titulos{
