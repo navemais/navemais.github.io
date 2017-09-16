@@ -50,6 +50,16 @@ table{
 	color: black;
 	text-align: center;
 	text-transform: uppercase;
+	width: 100%;
+	height: 100%;
+}
+.table>tbody>tr>td{
+    vertical-align:middle;
+    width: 200px;
+}
+.table>tbody>tr>th{
+	vertical-align: middle;
+	font-size: 20px;
 }
 th{
 	text-align: center;
