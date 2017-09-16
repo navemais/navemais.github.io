@@ -63,6 +63,7 @@ table{
 }
 th{
 	text-align: center;
+	font-size: 15px;
 }
 #chamadas-atividades{
 	background-image: url("../img/elementsplus.png");
