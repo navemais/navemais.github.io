@@ -111,3 +111,18 @@ tbody tr th{
 	text-transform: uppercase;
 }
 
+.perfil{
+	/*width: 300px;*/
+}
+#convidados{
+	background-color: #cf2766;
+	padding-bottom: 40px;
+	color: white;
+}
+.linha{
+	margin-bottom: 30px;
+}
+.descri-perfil{
+	font-size: 15px;
+}
+
