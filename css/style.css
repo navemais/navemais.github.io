@@ -2,6 +2,8 @@
 	padding: 0px;
 	margin: 0px;
 }
+::selection { background: #FF647E }
+::-moz-selection { background: #FF647E; }
 body{
 	font-family: Segoe, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
 	
@@ -48,8 +50,8 @@ table{
 	margin-top: 20px;
 	background-color: white;
 	color: black;
-	text-align: center;
-	text-transform: uppercase;
+	/*text-align: center;*/
+	/*text-transform: uppercase;*/
 	width: 100%;
 	height: 100%;
 }
@@ -62,8 +64,11 @@ table{
 	font-size: 20px;
 }
 th{
-	text-align: center;
+	text-align: right;
 	font-size: 15px;
+}
+#titulo-td{
+	font-size: 20px;
 }
 #chamadas-atividades{
 	background-image: url("../img/elementsplus.png");
@@ -125,4 +130,17 @@ tbody tr th{
 .descri-perfil{
 	font-size: 15px;
 }
+.mediador{
+	font-size: 13px;
+}
+.titulo-palestra{
+	text-transform: uppercase;
+}
+.alinhar-direita{
+	text-align: right;
+}
+.alinhar-esquerda{
+	text-align: left;
+}
+
 
