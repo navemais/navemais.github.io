@@ -96,7 +96,7 @@ th{
 	background-size: 1000px;
 }
 #logos{
-	width: 350px;
+	width: 400px;
 	float: right;
 }
 .topico{
@@ -141,6 +141,10 @@ tbody tr th{
 }
 .alinhar-esquerda{
 	text-align: left;
+}
+.icones{
+	width: 25px;
+	display: inline-block;
 }
 
 
